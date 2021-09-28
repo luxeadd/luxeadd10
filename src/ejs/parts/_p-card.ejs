@@ -1,18 +1,18 @@
 <article class="p-card">
   <div class="p-card__header">
     <figure class="p-card__figure">
-      <img src="./images/common/blog1.jpg" alt="" class="p-card__image">
+      <img src="<%= cardImage %>" alt="" class="p-card__image">
     </figure>
   </div>
   <div class="p-card__body">
-    <h2 class="p-card__title">タイトルが入ります。タイトルが入ります。</h2>
+    <h2 class="p-card__title"><%= cardTitle %></h2>
     <p class="p-card__copy">
-      説明文が入ります。説明文が入ります。説明文が入ります。
+     説明
     </p>
     <div class="p-card__footer">
       <div class="p-card__footer-item">
-        <div class="p-card__category">カテゴリ</div><!-- /._p-card__category -->
-        <time class="p-card__date" datetime="">2021.07.20</time>
+        <div class="p-card__category"><%= cardCategory %></div><!-- /._p-card__category -->
+        <time class="p-card__date" datetime=""><%= cardDate %></time>
       </div>
     </div>
   </div>
