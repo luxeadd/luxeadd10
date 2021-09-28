@@ -1,0 +1,12 @@
+<div class="p-cards">
+  <% for (var i=0; i < 9; i++) { %>
+    <%- include('./_p-card',
+    {
+      cardImage:'./images/common/blog1.jpg',
+      cardTitle:'タイトル',
+      cardCategory:'カテゴリ',
+      cardDate:'2020.7.28'
+    }) %>
+   
+    <% } %>
+</div><!-- /.p-cards -->
